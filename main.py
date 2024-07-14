@@ -1,4 +1,5 @@
 #This is an example code
+print("Linear Search Function")
 def linear_search(input_list, element):
     for index, value in enumerate(input_list):
         if value == element:
