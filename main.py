@@ -1,15 +1,10 @@
-#This is an example code
-print("Linear Search Function")
-
-
-def linear_search(input_list, element):
-    for index, value in enumerate(input_list):
-        if value == element:
-            return index
-
-    return -1
-
-
-uinput_list = [3, 4, 1, 6, 14]
-uelement = 4
-print("Index position for the element x is:", linear_search(uinput_list, uelement))
+n = 10
+i = 0
+for i in range(int(n / 2), n):
+    j = 1
+    while j + n / 2 <= n:
+        k = 1
+        while k < n:
+            k *= 2
+            print("data")
+        j += 1
