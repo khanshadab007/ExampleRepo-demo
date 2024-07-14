@@ -1,3 +1,4 @@
+#This is an example code
 def linear_search(input_list, element):
     for index, value in enumerate(input_list):
         if value == element:
